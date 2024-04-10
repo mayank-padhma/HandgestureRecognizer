@@ -24,3 +24,8 @@ This application should be run on a physical Android device to take advantage of
 
 Downloading, extraction, and placing the models into the *assets* folder is
 managed automatically by the **download.gradle** file.
+
+### Demo Video
+
+https://github.com/mayank-padhma/HandgestureRecognizer/assets/73173386/2f751b6b-3833-401e-baed-6293edf706ea
+
