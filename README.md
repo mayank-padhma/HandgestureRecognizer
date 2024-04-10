@@ -4,6 +4,7 @@
 ### Overview
 
 This is a camera app that can either continuously detects hand landmarks and classifies gestures from camera frames seen by your device's front camera using a custom **task** file.
+
 Gestures supported are Victory✌, Thumbs_Up👍, Thumbs_Down👎 and Open_Palm✋
 
 The task file is downloaded by a Gradle script when you build and run the app. You don't need to do any additional steps to download task files into the project explicitly unless you wish to use your own custom gesture recognition task. If you do use your own task file, place it into the app's *assets* directory.
