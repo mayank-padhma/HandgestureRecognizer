@@ -1,0 +1,167 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.google.mediapipe.examples.gesturerecognizer"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml
+11
+12    <!-- Enable instant app support -->
+13    <dist:module dist:instant="true" />
+13-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:7:5-40
+13-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:7:18-37
+14
+15    <!-- Declare features -->
+16    <uses-feature android:name="android.hardware.camera" />
+16-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:10:5-60
+16-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:10:19-57
+17
+18    <!-- Declare permissions -->
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:13:5-65
+19-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:13:22-62
+20
+21    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+22    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:25:5-79
+23-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:25:22-76
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:5-67
+24-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:26:22-64
+25
+26    <application
+26-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:15:5-39:19
+27        android:allowBackup="true"
+27-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.8.0] C:\Users\mayan\.gradle\caches\transforms-3\fe47a1a42c9555e69e5746fdce17258f\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="@string/app_name"
+32-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:18:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:19:9-54
+34        android:supportsRtl="true"
+34-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:20:9-35
+35        android:taskAffinity=""
+35-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:21:9-32
+36        android:testOnly="true"
+37        android:theme="@style/Theme.GestureRecognizer" >
+37-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:22:9-55
+38        <activity
+38-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:25:9-38:20
+39            android:name="com.google.mediapipe.examples.gesturerecognizer.MainActivity"
+39-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:26:13-41
+40            android:exported="true" >
+40-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:27:13-36
+41            <intent-filter>
+41-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:28:13-32:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:29:17-69
+42-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:29:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:31:17-77
+44-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:31:27-74
+45            </intent-filter>
+46
+47            <!-- Declare notch support -->
+48            <meta-data
+48-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:35:13-37:40
+49                android:name="android.notch_support"
+49-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:36:17-53
+50                android:value="true" />
+50-->C:\Users\mayan\OneDrive\Desktop\pupil\pupilmeshandroid\app\src\main\AndroidManifest.xml:37:17-37
+51        </activity>
+52
+53        <uses-library
+53-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:23:9-25:40
+54            android:name="androidx.window.extensions"
+54-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:24:13-54
+55            android:required="false" />
+55-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:25:13-37
+56        <uses-library
+56-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:26:9-28:40
+57            android:name="androidx.window.sidecar"
+57-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:27:13-51
+58            android:required="false" />
+58-->[androidx.window:window:1.1.0-alpha03] C:\Users\mayan\.gradle\caches\transforms-3\8943a4578f91a1b987e6786b58a8283d\transformed\window-1.1.0-alpha03\AndroidManifest.xml:28:13-37
+59
+60        <service
+60-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:25:9-34:19
+61            android:name="androidx.camera.core.impl.MetadataHolderService"
+61-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:26:13-75
+62            android:enabled="false"
+62-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:27:13-36
+63            android:exported="false" >
+63-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:28:13-37
+64            <meta-data
+64-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:31:13-33:89
+65                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+65-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:32:17-103
+66                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+66-->[androidx.camera:camera-camera2:1.2.0-alpha02] C:\Users\mayan\.gradle\caches\transforms-3\7dc1b62e6ace847e14725acbea9d4364\transformed\camera-camera2-1.2.0-alpha02\AndroidManifest.xml:33:17-86
+67        </service>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+71            android:authorities="com.google.mediapipe.examples.gesturerecognizer.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mayan\.gradle\caches\transforms-3\c806c9fa5bd52ec02b55f13c43b37dab\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayan\.gradle\caches\transforms-3\6c04f525a857679da1882948c7863b4a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayan\.gradle\caches\transforms-3\6c04f525a857679da1882948c7863b4a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mayan\.gradle\caches\transforms-3\6c04f525a857679da1882948c7863b4a\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+79        </provider>
+80
+81        <service
+81-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:29:9-35:19
+82            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+82-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:30:13-103
+83            android:exported="false" >
+83-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:31:13-37
+84            <meta-data
+84-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:32:13-34:39
+85                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+85-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:33:17-94
+86                android:value="cct" />
+86-->[com.google.android.datatransport:transport-backend-cct:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\7e5f35b40fb976bde02bfd095ad946a0\transformed\transport-backend-cct-3.1.0\AndroidManifest.xml:34:17-36
+87        </service>
+88        <service
+88-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:26:9-30:19
+89            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+89-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:27:13-117
+90            android:exported="false"
+90-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:28:13-37
+91            android:permission="android.permission.BIND_JOB_SERVICE" >
+91-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:29:13-69
+92        </service>
+93
+94        <receiver
+94-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:32:9-34:40
+95            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+95-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:33:13-132
+96            android:exported="false" />
+96-->[com.google.android.datatransport:transport-runtime:3.1.0] C:\Users\mayan\.gradle\caches\transforms-3\a1f28e24b87200fbe2183ee1a77a3b1b\transformed\transport-runtime-3.1.0\AndroidManifest.xml:34:13-37
+97    </application>
+98
+99</manifest>
