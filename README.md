@@ -22,7 +22,7 @@ This application should be run on a physical Android device to take advantage of
 
 ### Models used
 
-Downloading, extraction, and placing the models into the *assets* folder is
+Mediapipe hand gesture recognizer model is used for the task. Downloading, extraction, and placing the models into the *assets* folder is
 managed automatically by the **download.gradle** file.
 
 ### Demo Video
